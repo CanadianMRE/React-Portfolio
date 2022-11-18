@@ -3,30 +3,30 @@
     "name": "Wiki and Google Lookup",
     "link": "https://muaizkh.github.io/Search-Displayer/",
     "github": "https://github.com/Muaizkh/Search-Displayer",
-    "img": "./images/GoogleLookup.png"
+    "img": "GoogleLookup.png"
   },
   {
     "name": "Yourstore",
     "link": "https://your-store-jibstudios.herokuapp.com/",
     "github": "https://github.com/Iva416/yourStore/",
-    "img": "./images/Yourstore.png"
+    "img": "Yourstore.png"
   },
   {
     "name": "Note Taker",
     "link": "https://jaymen-notes-taker.herokuapp.com/notes",
     "github": "https://github.com/CanadianMRE/notes-taker",
-    "img": "./images/NoteTaker.png"
+    "img": "NoteTaker.png"
   },
   {
     "name": "Coding Quiz Challenge",
     "link": "https://canadianmre.github.io/Web-Dev-Quiz-C4/",
     "github": "https://github.com/CanadianMRE/Web-Dev-Quiz-C4",
-    "img": "./images/DevQuiz.png"
+    "img": "DevQuiz.png"
   },
   {
     "name": "Weather Viewer",
     "link": "https://canadianmre.github.io/Weather-Viewer-C6/",
     "github": "https://github.com/CanadianMRE/Weather-Viewer-C6",
-    "img": "./images/WeatherViewer.png"
+    "img": "WeatherViewer.png"
   }
 ]

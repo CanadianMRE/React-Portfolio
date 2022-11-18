@@ -3,10 +3,33 @@ import '../App';
 import portfolios from '../assets/data/portfolios.json';
 import noImageFound from '../assets/images/NoImageFound.jpg';
 
+import DevQuiz from '../assets/images/DevQuiz.png';
+import GoogleLookup from '../assets/images/GoogleLookup.png';
+import NoteTaker from '../assets/images/NoteTaker.png';
+import WeatherViewer from '../assets/images/WeatherViewer.png';
+import Yourstore from '../assets/images/Yourstore.png';
+
+const getImage = (imagename) => {
+  switch (imagename) {
+    case 'GoogleLookup':
+      return GoogleLookup;
+    case 'DevQuiz':
+      return DevQuiz;
+    case 'NoteTaker':
+      return NoteTaker;
+    case 'WeatherViewer':
+      return WeatherViewer;
+    case 'Yourstore':
+      return Yourstore;
+    default:
+      return noImageFound;
+  }
+};
+
 function Portfolio(props) {
   var portfolioList = portfolios.map(function (portfolio, index) {
     const divStyle = {
-      backgroundImage: `url(${portfolio.img ? portfolio.img : noImageFound})`,
+      backgroundImage: `url(${getImage()})`,
     };
     return (
       <div key={index}>
