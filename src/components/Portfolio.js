@@ -29,7 +29,7 @@ const getImage = (imagename) => {
 function Portfolio(props) {
   var portfolioList = portfolios.map(function (portfolio, index) {
     const divStyle = {
-      backgroundImage: `url(${getImage()})`,
+      backgroundImage: `url(${getImage(portfolio.img)})`,
     };
     return (
       <div key={index}>
