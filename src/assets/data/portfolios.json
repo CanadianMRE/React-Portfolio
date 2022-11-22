@@ -6,10 +6,16 @@
     "img": "GoogleLookup"
   },
   {
-    "name": "Yourstore",
-    "link": "https://your-store-jibstudios.herokuapp.com/",
-    "github": "https://github.com/Iva416/yourStore/",
-    "img": "Yourstore"
+    "name": "Note Taker",
+    "link": "https://jaymen-notes-taker.herokuapp.com/notes",
+    "github": "https://github.com/CanadianMRE/notes-taker",
+    "img": "NoteTaker"
+  },
+  {
+    "name": "Portfolio",
+    "link": "https://canadianmre.github.io/BootcampChallenges/Mod2/",
+    "github": "https://github.com/CanadianMRE/BootcampChallenges/tree/main/Mod2",
+    "img": "Portfolio"
   },
   {
     "name": "Note Taker",
