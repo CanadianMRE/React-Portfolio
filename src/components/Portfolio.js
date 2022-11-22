@@ -8,7 +8,7 @@ import GoogleLookup from '../assets/images/GoogleLookup.png';
 import NoteTaker from '../assets/images/NoteTaker.png';
 import WeatherViewer from '../assets/images/WeatherViewer.png';
 import Yourstore from '../assets/images/Yourstore.png';
-import PortfolioImg from '../assets/images/Portfolio.png';
+import PortfolioImg from '../assets/images/PortfolioImg.png';
 
 const getImage = (imagename) => {
   switch (imagename) {
