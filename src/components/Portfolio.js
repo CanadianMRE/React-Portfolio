@@ -9,6 +9,7 @@ import NoteTaker from '../assets/images/NoteTaker.png';
 import WeatherViewer from '../assets/images/WeatherViewer.png';
 import Yourstore from '../assets/images/Yourstore.png';
 import PortfolioImg from '../assets/images/PortfolioImg.png';
+import MugStore from '../assets/images/MugStore.png';
 
 const getImage = (imagename) => {
   switch (imagename) {
@@ -24,6 +25,8 @@ const getImage = (imagename) => {
       return Yourstore;
     case 'Portfolio':
       return PortfolioImg;
+    case 'MugStore':
+      return MugStore;
     default:
       return noImageFound;
   }

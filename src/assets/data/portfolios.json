@@ -34,5 +34,11 @@
     "link": "https://canadianmre.github.io/Weather-Viewer-C6/",
     "github": "https://github.com/CanadianMRE/Weather-Viewer-C6",
     "img": "WeatherViewer"
+  },
+  {
+    "name": "Mug Store",
+    "link": "https://whispering-inlet-47426.herokuapp.com/",
+    "github": "https://github.com/AmyWilford/Mug-Store",
+    "img": "MugStore"
   }
 ]
